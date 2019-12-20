@@ -12,7 +12,9 @@ def fast_fib(n):
         lst.append(lst[i-1] + lst[i-2])
     return lst[n]
 
-n = int(input())
-print(fast_fib(n))
+if __name__ == '__main__':
+    input = sys.stdin.read()
+    n = int(input)
+    print(fast_fib(n))
 
 
