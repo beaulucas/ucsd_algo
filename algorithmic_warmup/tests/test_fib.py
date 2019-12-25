@@ -1,4 +1,4 @@
-from fibonacci import fast_fib
+from algorithmic_warmup.fibonacci import fast_fib
 
 def test_answer():
   assert fast_fib(0) == 0

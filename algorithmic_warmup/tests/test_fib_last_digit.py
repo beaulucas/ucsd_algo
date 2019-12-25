@@ -1,4 +1,5 @@
-from fib_last_digit import get_fib_last_digit
+from algorithmic_warmup.fib_last_digit import get_fib_last_digit
+
 
 def test_answer():
   assert get_fib_last_digit(0) == 0

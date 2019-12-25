@@ -1,4 +1,5 @@
-from fib_mod import get_fib_mod
+from algorithmic_warmup.fib_mod import get_fib_mod
+
 
 def test_answer():
   assert get_fib_mod(239, 1000) == 161
