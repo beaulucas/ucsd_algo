@@ -76,11 +76,3 @@ if __name__ == '__main__':
   print(m[0])
   for x in sequence:
     print(x, end=' ')
-
-
-
-
-
-
-
-
