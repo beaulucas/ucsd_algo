@@ -7,7 +7,6 @@ This course covers dozens of algorithmic exercises covering topics such as:
 - Greedy Algorithms
 - Divide and Conquer
 - Dynamic Programming
-- + other random exercises
+- other random exercises
 
-The instructors are excellent and the amount of problems helpful in developing a strong foundation.
-I would highly recommend this course to anybody looking for a refresher on thinking about and developing algorithms.
+Overall, this course had strong lecturers and an abundance of practice problems that solidify the learning material. The auto-grader was also limited in providing hints around failure, which makes the programmer think harder about edge cases and overall design.

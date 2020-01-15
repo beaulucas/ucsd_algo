@@ -28,8 +28,8 @@ def optimal_weight(total_capacity, weights, constraints=True):
           v[index_weight][index_capacity] = weight
         else:
           v[index_weight][index_capacity] = 0
-      # no ability to use this item, so move up to previous item subproblem
       elif weight > capacity:
+        # no ability to use this item, so move up to previous item's subproblem result
         v[index_weight][index_capacity] = v[index_weight - 1][index_capacity]
       elif weight <= capacity:
         # use item, grab weight of previous subproblem, add item weight
